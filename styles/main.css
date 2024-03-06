@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  background-color: #fafaf9;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  height: 430px;
+  width: 390px;
+  background-color: white;
+  gap: 10px;
+  padding-top: 20px;
+  box-shadow: 5px 5px 15px #E5EAF0;
+}
+.card_image {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.card_design {
+  padding: 10px 20px 10px 20px;
+}
+.card_design-tag {
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  background-color: #e6d6fc;
+  color: #883AE1;
+  padding: 5px 20px 5px 20px;
+  border-radius: 20px;
+}
+.card_text {
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.card_text-title {
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.card_text-par {
+  font-family: "Sora", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  padding-bottom: 10px;
+  color: #6C727F;
+}
+.card_separator {
+  border-top: 1px solid #dedede;
+}
+.card_author {
+  font-family: "Sora", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #6C727F;
+}/*# sourceMappingURL=main.css.map */

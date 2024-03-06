@@ -1,0 +1,70 @@
+.section {
+  background-color: $bg_color;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  height: 430px;
+  width: 390px;
+  background-color: white;
+  gap: 10px;
+  padding-top: 20px;
+  box-shadow: 5px 5px 15px $shadow;
+
+  &_image {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+  }
+
+  &_design {
+    padding: 10px 20px 10px 20px;
+    &-tag {
+      font-family: "Sora", sans-serif;
+      font-weight: 600;
+      font-size: 10px;
+      background-color: $light_purple;
+      color: $dark_purple;
+      padding: 5px 20px 5px 20px;
+      border-radius: 20px;
+    }
+  }
+
+  &_text {
+    padding-left: 20px;
+    padding-right: 50px;
+    &-title {
+      font-family: "Sora", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      padding-bottom: 5px;
+    }
+    &-par {
+      font-family: "Sora", sans-serif;
+      font-weight: 300;
+      font-size: 15px;
+      padding-bottom: 10px;
+      color: $gray_color;
+    }
+  }
+
+  &_separator {
+    border-top: 1px solid #dedede;
+  }
+
+  &_author {
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: $gray_color;
+  }
+}
